@@ -12,15 +12,7 @@ public class ContactTest {
     @Test
     public void contactForm() {
         contact.open();
-        contact.nameField().setValue("Josuke Higashikata");
-        contact.stateOption().selectOptionContainingText("Alabama");
-        contact.backpackOption().click();
-        contact.newsletterRadio().selectRadio("yes");
 
-        contact.nameField().shouldHave(value("Josuke Higashikata"));
-
-        contact.backpackOption().shouldBe(selected);
-        contact.newsletterRadio().shouldHave(value("yes"));
-
+        contact.fillContactForm();
     }
 }

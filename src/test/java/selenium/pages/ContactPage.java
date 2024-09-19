@@ -30,4 +30,16 @@ public class ContactPage {
         return this;
     }
 
+    public void fillContactForm() {
+        nameField().setValue("Josuke Higashikata");
+        stateOption().selectOptionContainingText("Alabama");
+        backpackOption().click();
+        newsletterRadio().selectRadio("yes");
+
+        nameField().shouldHave(value("Josuke Higashikata"));
+
+        backpackOption().shouldBe(selected);
+        newsletterRadio().shouldHave(value("yes"));
+    };
+
 }

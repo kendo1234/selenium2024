@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f3cbf8d-791e-46ed-b124-a21aee519322" name="Changes" comment="" />
+    <list default="true" id="3f3cbf8d-791e-46ed-b124-a21aee519322" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/pages/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/tests/ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/tests/ContactTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -47,6 +53,7 @@
     "Gradle.ContactTest.contactForm.executor": "Run",
     "Gradle.FirstTest.initialTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
