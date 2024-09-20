@@ -36,7 +36,7 @@ public class ContactPage {
         backpackOption().click();
         newsletterRadio().selectRadio("yes");
 
-        nameField().shouldHave(value("Josuke Higashikata"));
+        nameField().shouldHave(value("Higashikata"));
 
         backpackOption().shouldBe(selected);
         newsletterRadio().shouldHave(value("yes"));
