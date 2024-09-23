@@ -18,28 +18,15 @@ import java.io.IOException;
 
 public class ContactTest {
 
-    @BeforeAll
-    static void setupAllureReports() {
-        SelenideLogger.addListener("TestReport", new AllureSelenide().screenshots(true).savePageSource(true));
-    }
     ContactPage contact = new ContactPage();
 
     @Test
     public void contactForm() {
         contact.open();
-
         contact.fillContactForm();
     }
 
     @AfterEach
-    public void tearDown() throws IOException {
-        screenshot();
+    public void tearDown() {
     }
-
-    @Attachment(type = "image/png")
-    public byte[] screenshot() throws IOException {
-        File screenshot = Screenshots.getLastScreenshot();
-        return screenshot == null ? null : Files.toByteArray(screenshot);
-    }
-
 }
